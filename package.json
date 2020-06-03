@@ -1,0 +1,28 @@
+{
+  "name": "mailchimpapi",
+  "version": "1.0.0",
+  "description": "Simple newsletter app via mailchimp API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev":"nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontendprof/mailChimpAPI.git"
+  },
+  "author": "AbdulMalik Sharif",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frontendprof/mailChimpAPI/issues"
+  },
+  "homepage": "https://github.com/frontendprof/mailChimpAPI#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
